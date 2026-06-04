@@ -36,3 +36,25 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+*.key
+*.cert
+*.crt
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment & Secrets
+.npmrc
+.env*.local
+secrets/
+
+# Cache
+.cache
+.turbo/cache
+
+# Logs
+*.log
+lerna-debug.log*
